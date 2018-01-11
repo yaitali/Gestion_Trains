@@ -1,0 +1,36 @@
+
+ Le temps consommé par le train ELBA est  :0.032571 S (Verrous)
+
+ Le temps consommé par le train DEBA est  :0.036396 S (Verrous)
+
+ Le temps consommé par le train ELAO est  :0.037649 S (Verrous)
+
+Le temps consommé par le train ELBA est  :0.035509 S (Semaphores) 
+
+Le temps consommé par le train ELAO est  :0.037635 S (Semaphores) 
+
+Le temps consommé par le train DEBA est  :0.039403 S (Semaphores) 
+
+Le temps consommé par le train ELBA est  :0.033187 S (Mutex)
+
+Le temps consommé par le train ELAO est  :0.036050 S (Mutex) 
+
+Le temps consommé par le train DEBA est  :0.036400 S (Mutex) 
+
+
+
+Comparaison des résultats:
+--------------------------
+
+	1. Après plusieurs exécutions, nous avons remarqué que le temps d'exécution de chaque train sur chacune des trois parties diffèrent selon 
+
+l'approche utilisée.
+
+Temps d'exécution ELBA (verrou) < Temps d'exécution ELBA (Mutex) < Temps d'exécution ELBA (sémaphore).
+Temps d'exécution ELAO (verrou) < Temps d'exécution ELAO (Mutex) < Temps d'exécution ELAO (sémaphore).
+Temps d'exécution DEBA (verrou) < Temps d'exécution DEBA (Mutex) < Temps d'exécution DEBA (sémaphore).
+ 
+
+        2. Le train ELBA finit toujours en premier vu qu'il a le plus court trajet.
+
+

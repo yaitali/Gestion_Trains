@@ -1,0 +1,281 @@
+ make compiler1                                           // compiler à l'aide d'un Makefile avec la commande "make compiler1"
+gcc  -Wall -o mutex.x   mutex.c -lpthread                // commande de compliation 
+ make executer1                                         // executer à l'aide d'un Makefile avec la commande"make executer1"
+./mutex.x                                               // commande d'execution
+
+               Début de service du Train ELBA :  Mon Jan  8 13:16:45 2018
+ 
+Le train ELBA  veut s'engager sur la voie AB        // ELBA demande AB
+Le train ELBA est dans la voie AB                   // ELBA utilise AB
+
+               Début de service du Train  ELAO :Mon Jan  8 13:16:45 2018
+ 
+
+Le train ELAO veut s'engager sur la voie AB         // ELAO demande AB
+Le train ELAO est dans la voie AB                   // ELAO utilise AB
+
+               Début de service du Train DEBA  Mon Jan  8 13:16:45 2018
+ 
+Le train DEBA  veut s'engager sur la voie AB       // DEBA demande AB
+Le train DEBA est dans la voie AB                  // DEBA utilise AB 
+Le train ELBA  quitte la voie AB                   // ELBA quitte AB
+Le train ELBA veut s'engager sur la voie BC        // ELBA demande BC
+Le train ELBA est dans la voie BC                  // ELBA utilise BC
+Le train ELBA  quitte la voie BC                   // ELBA quitte BC
+Le train ELBA veut s'engager sur la voie CB        // ELBA demande CB
+Le train ELBA est dans la voie CB                  //ELBA utilise CB
+Le train ELAO quitte la voie AB                    //ELAO quitte AB
+Le train ELAO veut s'engager sur la voie BD        //ELAO demande BD
+Le train ELAO est dans la voie BD                  //ELAO utilise BD
+Le train DEBA quitte la voie AB                    //DEBA quitte AB
+Le train DEBA  veut s'engager sur la voie BD       //DEBA demande BD
+Le train DEBA est dans la voie BD                  //DEBA utilise BD
+Le train ELBA quitte la voie CB                    //ELBA quiite CB
+Le train ELBA veut s'engager sur la voie BA        //ELBA demande BA
+Le train ELBA est dans la voie BA
+Le train ELAO quitte la voie BD
+Le train ELAO veut s'engager sur la voie DC 
+Le train ELAO est dans la voie DC
+Le train DEBA quitte la voie BD
+Le train DEBA  veut s'engager sur la voie DC 
+Le train DEBA est dans la voie DC
+Le train DEBA quitte la voie DC
+Le train DEBA  veut s'engager sur la voie CE 
+Le train DEBA est dans la voie CE
+Le train ELBA quitte la voie BA
+Le train ELBA  veut s'engager sur la voie AB 
+ Le train ELBA est dans la voie AB
+Le train DEBA quitte la voie CE
+Le train DEBA   veut s'engager sur la voie EA 
+Le train DEBA est dans la voie EA
+Le train ELBA  quitte la voie AB
+Le train DEBA quitte la voie EA 
+Le train ELBA veut s'engager sur la voie BC 
+Le train ELBA est dans la voie BC
+Le train DEBA  veut s'engager sur la voie AB 
+Le train DEBA est dans la voie AB
+Le train ELAO quitte la voie DC
+Le train ELAO veut s'engager sur la voie CB 
+Le train ELAO est dans la voie CB
+Le train ELAO quitte la voie CB
+Le train ELAO  veut s'engager sur la voie BA 
+Le train ELAO est dans la voie BA
+Le train ELBA  quitte la voie BC
+Le train ELBA veut s'engager sur la voie CB 
+Le train ELBA est dans la voie CB
+Le train ELBA quitte la voie CB
+Le train ELBA veut s'engager sur la voie BA 
+Le train ELBA est dans la voie BA
+Le train ELAO quitte la voie BA
+Le train ELAO veut s'engager sur la voie AB 
+Le train ELAO est dans la voie AB
+Le train ELAO quitte la voie AB
+Le train ELAO veut s'engager sur la voie BD 
+Le train ELAO est dans la voie BD
+Le train DEBA quitte la voie AB
+Le train DEBA  veut s'engager sur la voie BD 
+Le train DEBA est dans la voie BD
+Le train ELAO quitte la voie BD
+Le train ELAO veut s'engager sur la voie DC 
+Le train ELAO est dans la voie DC
+Le train ELBA quitte la voie BA
+Le train ELBA  veut s'engager sur la voie AB 
+Le train ELBA est dans la voie AB
+Le train ELBA  quitte la voie BC
+Le train DEBA quitte la voie AB
+Le train ELBA veut s'engager sur la voie BC 
+Le train ELAO quitte la voie DC
+Le train ELAO veut s'engager sur la voie CB 
+Le train ELAO est dans la voie CB
+Le train DEBA  veut s'engager sur la voie DC 
+Le train DEBA est dans la voie BD
+Le train ELBA est dans la voie DC
+Le train DEBA quitte la voie DC
+Le train DEBA  veut s'engager sur la voie CE 
+Le train DEBA est dans la voie CE
+Le train DEBA quitte la voie CE
+Le train DEBA   veut s'engager sur la voie EA 
+Le train DEBA est dans la voie EA
+Le train DEBA quitte la voie EA
+Le train DEBA  veut s'engager sur la voie AB 
+Le train DEBA est dans la voie AB
+Le train DEBA quitte la voie AB
+Le train DEBA  veut s'engager sur la voie BD 
+Le train DEBA est dans la voie BD
+Le train ELAO quitte la voie CB
+Le train ELAO  veut s'engager sur la voie BA 
+Le train ELAO est dans la voie BA
+Le train ELBA  quitte la voie BC
+Le train ELBA veut s'engager sur la voie CB 
+Le train ELBA est dans la voie CB
+Le train ELAO quitte la voie BA
+Le train ELAO veut s'engager sur la voie AB 
+Le train ELAO est dans la voie AB
+Le train DEBA quitte la voie BD
+Le train DEBA  veut s'engager sur la voie DC 
+Le train DEBA est dans la voie DC
+Le train ELAO quitte la voie AB
+Le train ELAO veut s'engager sur la voie BD 
+Le train ELAO est dans la voie BD
+Le train ELBA quitte la voie CB
+Le train ELBA veut s'engager sur la voie BA 
+Le train ELBA est dans la voie BA
+Le train DEBA quitte la voie DC
+Le train DEBA  veut s'engager sur la voie CE 
+Le train DEBA est dans la voie CE
+Le train ELBA quitte la voie BA
+Le train ELBA  veut s'engager sur la voie AB 
+ Le train ELBA est dans la voie AB
+Le train ELAO quitte la voie BD
+Le train ELAO veut s'engager sur la voie DC 
+Le train ELAO est dans la voie DC
+Le train ELBA  quitte la voie AB
+Le train ELBA veut s'engager sur la voie BC 
+Le train ELBA est dans la voie BC
+Le train ELBA  quitte la voie BC
+Le train ELBA veut s'engager sur la voie CB 
+Le train ELBA est dans la voie CB
+Le train ELAO quitte la voie EA
+Le train DEBA quitte la voie CE
+Le train DEBA   veut s'engager sur la voie EA 
+Le train DEBA est dans la voie DC
+Le train ELAO veut s'engager sur la voie CB 
+Le train ELAO est dans la voie CB
+Le train DEBA quitte la voie EA
+Le train DEBA  veut s'engager sur la voie AB 
+Le train DEBA est dans la voie AB
+Le train DEBA quitte la voie AB
+Le train DEBA  veut s'engager sur la voie BD 
+Le train DEBA est dans la voie BD
+Le train ELBA quitte la voie CB
+Le train ELBA veut s'engager sur la voie BA 
+Le train ELBA est dans la voie BA
+Le train ELBA quitte la voie BA
+Le train ELBA  veut s'engager sur la voie AB 
+ Le train ELBA est dans la voie AB
+Le train ELAO quitte la voie CB
+Le train ELAO  veut s'engager sur la voie BA 
+Le train ELAO est dans la voie BA
+Le train DEBA quitte la voie BD
+Le train DEBA  veut s'engager sur la voie DC 
+Le train DEBA est dans la voie DC
+Le train ELBA  quitte la voie AB
+Le train ELBA veut s'engager sur la voie BC 
+Le train ELBA est dans la voie BC
+Le train ELAO quitte la voie BA
+Le train ELAO veut s'engager sur la voie AB 
+Le train ELAO est dans la voie AB
+Le train ELBA  quitte la voie BC
+Le train ELBA veut s'engager sur la voie CB 
+Le train ELBA est dans la voie CB
+Le train DEBA quitte la voie DC
+Le train DEBA  veut s'engager sur la voie CE 
+Le train DEBA est dans la voie CE
+Le train ELBA quitte la voie CB
+Le train ELBA veut s'engager sur la voie BA 
+Le train ELBA est dans la voie BA
+Le train ELAO quitte la voie AB
+Le train ELAO veut s'engager sur la voie BD 
+Le train ELAO est dans la voie BD
+Le train ELBA quitte la voie BA
+Le train ELBA  veut s'engager sur la voie AB 
+ Le train ELBA est dans la voie AB
+Le train ELBA  quitte la voie AB
+Le train ELBA veut s'engager sur la voie BC 
+Le train ELBA est dans la voie BC
+Le train DEBA quitte la voie CE
+Le train DEBA   veut s'engager sur la voie EA 
+Le train DEBA est dans la voie EA
+Le train DEBA quitte la voie EA
+Le train DEBA  veut s'engager sur la voie AB 
+Le train DEBA est dans la voie AB
+Le train ELBA  quitte la voie BC
+Le train ELBA veut s'engager sur la voie CB 
+Le train ELBA est dans la voie CB
+Le train ELAO quitte la voie BD
+Le train ELAO veut s'engager sur la voie DC 
+Le train ELAO est dans la voie DC
+Le train ELAO quitte la voie DC
+Le train ELAO veut s'engager sur la voie CB 
+Le train ELAO est dans la voie CB
+Le train DEBA quitte la voie AB
+Le train DEBA  veut s'engager sur la voie BD 
+Le train DEBA est dans la voie BD
+Le train ELBA quitte la voie CB
+Le train ELBA veut s'engager sur la voie BA 
+Le train ELBA est dans la voie BA
+Le train DEBA quitte la voie BD
+Le train DEBA  veut s'engager sur la voie DC 
+Le train DEBA est dans la voie DC
+Le train ELAO quitte la voie CB
+Le train ELAO  veut s'engager sur la voie BA 
+Le train ELAO est dans la voie BA
+Le train ELBA quitte la voie BA
+Le train ELAO quitte la voie BA
+Le train ELAO veut s'engager sur la voie AB 
+
+Le temps consommé (s)  par le train ELBA sur l'ensemble de ses trajets est :0.005472 S   // Le temps que le train ELBA  a pris pour l'execution de ses 6 trajets.
+ Le train ELAO est dans la voie AB
+
+Fin de service du Train ELBA : Mon Jan  8 13:16:45 2018                                   // fin de service du train ELBA avec la date et l'heure exactes.
+ 
+Le train ELAO quitte la voie AB
+Le train ELAO veut s'engager sur la voie BD 
+Le train ELAO est dans la voie BD
+Le train DEBA quitte la voie DC
+Le train DEBA  veut s'engager sur la voie CE 
+Le train DEBA est dans la voie CE
+Le train ELAO quitte la voie BD
+Le train ELAO veut s'engager sur la voie DC 
+Le train ELAO est dans la voie DC
+Le train DEBA quitte la voie CE
+Le train ELAO quitte la voie Le train DEBA   veut s'engager sur la voie EA 
+Le train DEBA est dans la voie EA
+DC
+Le train ELAO veut s'engager sur la voie CB 
+Le train ELAO est dans la voie CB
+Le train ELAO quitte la voie CB
+Le train ELAO  veut s'engager sur la voie BA 
+Le train ELAO est dans la voie BA
+Le train DEBA quitte la voie EA
+Le train DEBA  veut s'engager sur la voie AB 
+Le train DEBA est dans la voie AB
+Le train ELAO quitte la voie BA
+Le train ELAO veut s'engager sur la voie AB 
+Le train ELAO est dans la voie AB
+Le train DEBA quitte la voie AB
+Le train DEBA  veut s'engager sur la voie BD 
+Le train DEBA est dans la voie BD
+Le train DEBA quitte la voie BD
+Le train DEBA  veut s'engager sur la voie DC 
+Le train DEBA est dans la voie DC
+Le train ELAO quitte la voie AB
+Le train ELAO veut s'engager sur la voie BD 
+Le train ELAO est dans la voie BD
+Le train DEBA quitte la voie DC
+Le train DEBA  veut s'engager sur la voie CE 
+Le train DEBA est dans la voie CE
+Le train ELAO quitte la voie BD
+Le train ELAO veut s'engager sur la voie DC 
+Le train ELAO est dans la voie DC
+Le train DEBA quitte la voie CE
+Le train DEBA   veut s'engager sur la voie EA 
+Le train DEBA est dans la voie EA
+Le train ELAO quitte la voie DC
+Le train ELAO veut s'engager sur la voie CB 
+Le train ELAO est dans la voie CB
+Le train ELAO quitte la voie CB
+Le train ELAO  veut s'engager sur la voie BA 
+Le train ELAO est dans la voie BA
+Le train DEBA quitte la voie EA
+
+Le temps consommé (s)  par le train DEBA  sur l'ensemble de ses trajets est :  0.007159 S  // Le temps que le train DEBA  a pris pour l'execution de ses 6 trajets.
+ 
+Fin de service du Train  DEBA  :  Mon Jan  8 13:16:45 2018                                 // fin de service du train DEBA  avec la date et l'heure exactes.
+ 
+Le train ELAO quitte la voie BA
+
+Le temps consommé (s)  par le train ELAO sur l'ensemble de ses trajets est :  0.007666 S  // Le temps que le train ELAO  a pris pour l'execution de ses 6 trajets. 
+ 
+Fin de service du Train ELAO : Mon Jan  8 13:16:45 2018                                   //// fin de service du train ELAO   avec la date et l'heure exactes.
+ 
